@@ -1,0 +1,27 @@
+*{
+    background-color: cyan;
+}
+
+#h{
+    background-color: red;
+}
+#ab{
+    background-color: yellowgreen;
+}
+#ho{
+    background-color: yellow;
+}
+#yo{
+    background-color: green;
+}
+
+.d1{
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: blue;
+}
+
+.d2{
+    height: 100px;
+    background-color: black;
+}

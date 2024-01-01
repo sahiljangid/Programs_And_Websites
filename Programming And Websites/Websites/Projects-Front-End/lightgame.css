@@ -1,0 +1,110 @@
+.main
+{
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: auto;
+    position: relative;
+    margin-top: 150px;
+    background-color: black;
+}
+
+.main .off{
+    margin-left: 270px;
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-image: url(off.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    box-shadow: 0px 0px 100px 30px red;
+    animation-name: light;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.main .hand{
+    width: 150px;
+    height: 150px;
+    margin-left: 600px;
+    margin-top: 150px;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    animation-name: hand;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes hand {
+    0%
+    {    
+        width: 150px;
+        height: 150px;
+        margin-left: 600px;
+        margin-top: 150px;
+    }
+    50%
+    {
+        width: 150px;
+        height: 150px;
+        margin-left: 500px;
+        margin-top: 150px;
+    }
+}
+
+
+
+@keyframes light {
+    0%
+    {
+        margin-left: 270px;
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-image: url(off.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    box-shadow: 0px 0px 100px 30px red;
+    }
+    50%
+    {
+        margin-left: 270px;
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-image: url(on.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    box-shadow: 0px 0px 100px 50px green;
+    }
+}
+
+
+
+
+
+
+
+
+/* .main .off:hover{
+    margin-left: 270px;
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-image: url(on.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    box-shadow: 0px 0px 100px 10px green;
+
+} */

@@ -1,0 +1,823 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#404040, #303030);
+  }
+  
+  .main {
+    width: 600px;
+    height: 300px;
+    background: radial-gradient(#303030, #404040);
+    color: #505050;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 900px 5px;
+    margin-top: 300px;
+    font-family: cursive;
+  }
+
+
+
+.main .s{
+    height: 5px;
+    width: 60px;
+    background-color: transparent;
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    animation-name: s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes s {
+    0%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    /* color: transparent; */
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    }
+    10%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #80ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #80ff00;
+    }
+    20%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #00ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #00ff00;
+    }
+    30%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #00ff80;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #00ff80;
+    }
+    40%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #00ffff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #00ffff;
+    }
+    50%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #0080ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #0080ff;
+    }
+    60%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #0000ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #0000ff;
+    }
+    70%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #7f00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #7f00ff;
+    }
+    80%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #ff00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #ff00ff;
+    }
+    90%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #ff007f;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #ff007f;
+    }
+    100%
+    {
+        height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: #808080;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px #808080;
+    }
+}
+
+
+
+
+
+
+.main .a{
+    height: 0px;
+    width: 60px;
+    background-color: transparent;
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    animation-name: a;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a {
+    0%
+    {
+        height: 0px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    }
+    10%
+    {
+        height: 0px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #80ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #80ff00;
+    }
+    20%
+    {
+        height: 0px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #00ff00;
+    }
+    30%
+    {
+        height: 0px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ff80;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #00ff80;
+    }
+    40%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ffff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #00ffff;
+    }
+    50%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #0080ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #0080ff;
+    }
+    60%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #0000ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #0000ff;
+    }
+    70%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #7f00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #7f00ff;
+    }
+    80%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #ff00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #ff00ff;
+    }
+    90%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #ff007f;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #ff007f;
+    }
+    100%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #808080;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px #808080;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main .h{
+    height: 5px;
+    width: 60px;
+    background-color: transparent;
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    animation-name: h;
+    animation-duration: 3s;
+    animation-delay: 1s;
+
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes h {
+    0%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    }
+    10%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #80ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #80ff00;
+    }
+    20%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #00ff00;
+    }
+    30%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ff80;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #00ff80;
+    }
+    40%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ffff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #00ffff;
+    }
+    50%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #0080ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #0080ff;
+    }
+    60%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #0000ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #0000ff;
+    }
+    70%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #7f00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #7f00ff;
+    }
+    80%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #ff00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #ff00ff;
+    }
+    90%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #ff007f;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #ff007f;
+    }
+    100%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #808080;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px #808080;
+    }
+}
+
+
+
+
+
+
+
+
+.main .i{
+    height: 5px;
+    width: 60px;
+    background-color: transparent;
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    animation-name: i;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes i {
+    0%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    }
+    10%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #80ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #80ff00;
+    }
+    20%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #00ff00;
+    }
+    30%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ff80;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #00ff80;
+    }
+    40%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ffff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #00ffff;
+    }
+    50%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #0080ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #0080ff;
+    }
+    60%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #0000ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #0000ff;
+    }
+    70%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #7f00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #7f00ff;
+    }
+    80%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #ff00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #ff00ff;
+    }
+    90%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #ff007f;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #ff007f;
+    }
+    100%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #808080;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px #808080;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main .l{
+    height: 5px;
+    width: 60px;
+    background-color: transparent;
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    animation-name: l;
+    animation-duration: 3s;
+    animation-delay: 2s;
+
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes l {
+    0%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: transparent;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px;
+    }
+    10%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #80ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #80ff00;
+    }
+    20%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ff00;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #00ff00;
+    }
+    30%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ff80;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #00ff80;
+    }
+    40%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #00ffff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #00ffff;
+    }
+    50%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #0080ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 170px 50px 15px #0080ff;
+    }
+    60%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #0000ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 0px 160px 50px 15px #0000ff;
+    }
+    70%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #7f00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    box-shadow: 0px 150px 50px 15px #7f00ff;
+    }
+    80%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #ff00ff;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 0px 140px 50px 15px #ff00ff;
+    }
+    90%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #ff007f;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 90px;
+    margin-left: 50px;
+    box-shadow: 0px 130px 50px 15px #ff007f;
+    }
+    100%
+    {
+        height: 5px;
+    width: 60px;
+    /* background-color: transparent; */
+    color: #808080;
+    /* background-color: blue; */
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    box-shadow: 0px 120px 50px 15px #808080;
+    }
+}

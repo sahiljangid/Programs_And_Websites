@@ -1,0 +1,21 @@
+.main{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* transform: translate(100px,100px); */
+    transform: translateX(200px);
+    /* transform: translateY(100px); */
+    transform: translate(500px,0px);
+    margin-left: 500px;
+    margin-top: 150px;
+    transform: skew(-30deg,30deg);
+    transform: rotate(20deg);
+}
+
+.main:hover{
+    transform: translate(300px,0px);
+    transform: skew(30deg,30deg);
+    transform: rotate(40deg);
+    /* transform: scale(2); */
+
+}

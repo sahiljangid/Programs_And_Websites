@@ -1,0 +1,23 @@
+.text{
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+#hr{
+    text-decoration: none;
+}
+.para{
+    width: 500px;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+
+}

@@ -1,0 +1,11 @@
+.main{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(21, 70, 64, 0.4);
+    transition: 2s;
+
+}
+.main:hover
+{
+    background-color: rgba(25, 65, 40, 1);
+}

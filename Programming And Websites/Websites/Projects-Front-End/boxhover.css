@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(192, 134, 181);
+}
+*:hover
+{
+    background-color: rgb(93, 158, 113);
+    transition: 5s;
+}
+
+.main {
+  width: 98%;
+  position: absolute;
+  display: flex;
+  /* float: left; */
+  /* border: 2px solid black; */
+  margin: 5px;
+  border-radius: 20px;
+  background-color: rgb(93, 158, 113);
+    transition: 5s;
+  margin-top: 50px;
+}
+
+.main div {
+  width: 80px;
+  height: 100px;
+  position: relative;
+  /* display: flex; */
+  float: left;
+  border-radius: 10px;
+  /* background: red; */
+  box-shadow: 0px 0px 20px 5px rgb(247, 244, 246);
+  z-index: -1px;
+
+}
+
+.main:hover
+{
+    background-color: rgb(212, 107, 195);
+    transition: 5s;
+}
+
+/* .main div:hover
+{
+    transition: 2s;
+} */
+
+#box1:hover {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 70px 20px #E4E2F2;
+    background-image: url(s1.jpg);
+    background-size: cover;
+    transition: 2s ease-in-out;
+    
+
+}
+
+#box2:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+
+}
+
+#box3:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+
+}
+
+#box4:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box5:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box6:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box7:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box8:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box9:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box10:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box11:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box12:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box13:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box14:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box15:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box16:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box17:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box18:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box19:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box20:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+#box21:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box22:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box23:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box24:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}
+
+#box25:hover {
+  width: 200px;
+  height: 110px;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+}

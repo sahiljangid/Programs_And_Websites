@@ -1,0 +1,15 @@
+.click:hover{
+    color: red;
+    background-color: blue;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    border-radius: 75px;
+}
+.click{
+    background-color: black;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+}

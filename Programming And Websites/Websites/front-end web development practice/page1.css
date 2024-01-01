@@ -1,0 +1,21 @@
+.main{
+    width: 800px;
+    height: 400px;
+    background-color: red;
+}
+
+.row1{
+    width: 800px;
+    height: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+#pa{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: royalblue;
+    background-color: beige;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Content</title>
+</head>
+<body id = "body">
+    <center>
+        <h1>Printable data</h1>
+        <p id="data">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic eum nihil voluptates nam qui optio ratione facilis, corporis non natus consequuntur, ea adipisci recusandae iure, sequi quidem esse sint. Sunt magnam ea qui, pariatur quasi fugiat? Possimus alias maiores, eaque repudiandae harum, vitae nam, voluptatem vero nostrum nemo at suscipit eveniet pariatur tenetur neque reprehenderit! Similique asperiores provident nisi libero nesciunt maiores aliquid fuga cupiditate sapiente quia illo iure assumenda repellendus consectetur pariatur accusamus quaerat inventore excepturi, recusandae officiis. Praesentium corporis obcaecati dolorum optio vel consequuntur quia neque fuga totam perferendis possimus soluta dolores eveniet autem est ipsa unde, amet distinctio officiis! Ipsum esse rerum nihil temporibus ab aut dolores? Optio mollitia doloremque qui eum dolores eligendi cumque quae, illo vitae quasi aut? Accusamus, dolore. Distinctio dolor itaque sed. In dolorum sapiente, provident earum officiis perspiciatis velit asperiores molestiae rem incidunt doloribus doloremque quibusdam aperiam, nisi nihil sequi id laudantium necessitatibus. Harum nostrum expedita illo quo at sed provident, maiores dicta saepe reprehenderit est fuga ipsam aliquam? Et nobis quos necessitatibus iusto recusandae voluptate assumenda sapiente, officiis voluptatem similique repellat, corporis officia facere odio quaerat 
+
+
+
+            
+        </p>
+        <button onclick="printpage()">Print</button>
+    </center>
+</body>
+<script type="text/javascript">
+    function printpage()
+    {
+        var body = document.getElementById('body').innerHTML;
+        var data = document.getElementById('data').innerHTML;
+        document.getElementById('body').innerHTML = data;
+        window.print();
+        document.getElementById('body').innerHTML = body;
+    }
+</script>
+</html>
