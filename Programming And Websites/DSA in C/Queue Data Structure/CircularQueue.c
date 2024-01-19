@@ -52,7 +52,7 @@ void dequeue()
 
 void display()
 {
-    if (front == -1)
+    if (front == -1 && rear == -1)
     {
         printf("Queue is empty");
         return;
